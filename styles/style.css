@@ -1,21 +1,37 @@
 @import url('https://fonts.cdnfonts.com/css/circular-std');
 
+* h1, h2, h3, p, select, button {
+    margin: 0;
+    padding: 0; }
+
+
+
 
 body{
-    margin: 0px;
+    margin: 2em 2em;
     font-family: 'Circular Std', sans-serif;
     background-color: #00081d;
+   
+  
+
+    
 }
 
 #logo{
     width: 150px;
+
 }
 
 #container{
     background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2016/10/netflix-catalogo.jpg?resize=1060%2C596&ssl=1);
-    background-size: cover;
-    height: 700px;
-    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+   
 }
 
 #header{
@@ -40,22 +56,27 @@ select{
     border-radius: 5px;
     color: white;
     font-size: 14px;
+    
+    
 }
 
 #main{
     color: white;
     margin-top: 100px;
     margin-left: 100px;
+    
 }
 
 #title-main{
     font-size: 62px;
     font-weight: 900;
+    text-align: center;
 }
 
 h3{
     font-weight: 400;
     margin-top: 40px;
+    text-align: center;
 }
 
 form{
@@ -91,6 +112,8 @@ form{
     margin-top: 100px;    
     background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);;
     border-radius: 5px;
+    
+    
 }
 
 .box-info{
@@ -105,10 +128,13 @@ form{
 .box-title{
     font-size: 48px;
     font-weight: 800;
+    text-align: center;
 }
 
 .subtitle-main{
     font-size: 20px;
+    display: flex;
+    
 }
 
 .shadow{
@@ -117,3 +143,6 @@ form{
     background-color: rgba(0, 0, 0, 0.467);
     margin: 0 auto;
 }
+
+
+
